@@ -4,11 +4,8 @@ import { Forms } from "./style";
 export default function Filter({
   nome,
   setNome,
-  valMin,
   setValMin,
-  valMax,
   setValMax,
-  ordenar,
   setOrdenar,
 }) {
   const onChangeNome = (event) => {
@@ -49,7 +46,7 @@ export default function Filter({
           <span>Valor Máximo:</span>
           <input
             type="number"
-            value={valMax}
+            placeholder="0"
             onChange={(event) => onChangeValMax(event)}
           />
         </label>
@@ -57,7 +54,7 @@ export default function Filter({
           <span>Valor Mínimo:</span>
           <input
             type="number"
-            value={valMin}
+            placeholder="0"
             onChange={(event) => onChangeValMin(event)}
           />
         </label>

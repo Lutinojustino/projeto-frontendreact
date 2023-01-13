@@ -9,13 +9,21 @@ import Carrinho from "./components/carrinho";
 
 function App() {
   const [trocarTela, setTrocarTela] = useState(1);
-  const [valMin, setValMin] = useState("");
-  const [valMax, setValMax] = useState("");
+  const [valMin, setValMin] = useState("0");
+  const [valMax, setValMax] = useState("99999");
   const [nome, setNome] = useState("");
   const [ordenar, setOrdenar] = useState("");
   const [listaItem, setListaItem] = useState([]);
   const [quantidade, setQuantidade] = useState(1);
   const [carroDeCompra, setCarroDeCompra] = useState(0);
+
+  // useEffect(() => {
+  //   if (listaItem === ´[]) {
+  //     listaItem(JSON.stringify(localStorage.setItem("carrinho")));
+  //   } else {
+  //     listaItem(JSON.parse(localStorage.getItem("carrinho")));
+  //   }
+  // }, [listaItem]);
 
   const addNoCarro = (produto) => {
     const newCar = [...listaItem];
@@ -33,15 +41,10 @@ function App() {
       produto.quantidade = produto.quantidade + 1;
     }
     setListaItem(newCar);
+    setListaItem(JSON.stringify(localStorage.setItem("carrinho")));
     setCarroDeCompra(produto.valor);
     setQuantidade(produto.quantidade);
   };
-
-  // useEffect(()=>{
-
-  // },{
-
-  // })
 
   const removerCarroDeCompras = (produto) => {
     const copyNewCar = [...listaItem];
@@ -80,15 +83,16 @@ function App() {
             </section>
             <section className="Card">
               {Itens.filter((item) => {
-                if (valMin !== " " && valMax !== 0) {
+                if (valMin !== "" && valMax !== 0) {
                   if (item.valor >= valMin && item.valor <= valMax) {
                     return item.valor;
                   }
-                } else if (valMin === "" && valMax === "") {
+                } else if (valMin === 0 && valMax === 0) {
                   setValMin(0);
-                  setValMax(9999);
+                  setValMax(99999);
                 }
               })
+
                 .filter((item) => {
                   return item.name
                     .toLowerCase()

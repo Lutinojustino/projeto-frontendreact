@@ -1,0 +1,78 @@
+[
+  {
+    "id": "001",
+    "name": "Angel",
+    "imagem": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS5YnQgfojX9tC0ddrxPGU9K8JgG-nkYR61fZLYzZkz6oc5wHTq",
+    "valor": "20,00",
+    "quantidade": 1
+  },
+  {
+    "id": "002",
+    "name": "Stitch",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4RM2gJrXFK70Ih5Am0h58m0rSSGunlRHiCTTrNHKDS22IB617",
+    "valor": "20,00",
+    "quantidade": 1
+  },
+  {
+    "id": "003",
+    "name": "Stitch elvin",
+    "imagem": "https://suikame.loja2.com.br/img/bad7e626e1f6476fe71728a3a887b6ec.jpg",
+    "valor": "20,00",
+    "quantidade": 1
+  },
+  {
+    "id": "004",
+    "name": "baby yoda",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3-_XLipdt0IR1BeZF8ydT32Yta4-KF6PfxykigREqzyib6Pas",
+    "valor": "20,00",
+    "quantidade": 1
+  },
+  {
+    "id": "005",
+    "name": "Angel e Stitch",
+    "imagem": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoUzARBqNhj0c4LE4gUkN-iAxbA1N_qj7MGK0Ley5uNS-remh0",
+    "valor": "20,00",
+    "quantidade": 1
+  },
+  {
+    "id": "006",
+    "name": "Stitch Dormindo",
+    "imagem": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSZ7HS76EYsXdilrprl1-BKHYouA48azLP7lOIFJCFFmHN1y10g",
+    "valor": "20,00",
+    "quantidade": 1
+  },
+  {
+    "id": "008",
+    "name": "Camisa E.T",
+    "imagem": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS9g4_1bJTdGFP-hVhrzkVxD_L4dJNgFS-ajLOug8JzWjE1K_HL",
+    "valor": "20,00"
+  },
+  {
+    "id": "009",
+    "name": "Camisa E.T ",
+    "imagem": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQD0ke0Zdzv8GgHC5zZnzLYO4zjAENXInI8KzZlpqNsxyxHvUXk",
+    "valor": "20,00",
+    "quantidade": 1
+  },
+  {
+    "id": "010",
+    "name": "Camisa E.T lua",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSydZ0KJ0lbbD-MPqmDLj0GQdXO-0C-ixB_Yy8JtKw0zJAOrLbZ",
+    "valor": "20,00",
+    "quantidade": 1
+  },
+  {
+    "id": "011",
+    "name": "Camisa Psicodélico",
+    "imagem": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTKypjiebrh_IHIXf-J8gAf7vaN0ueoF_qnb96jRTm8TQivUbvI",
+    "valor": "20,00",
+    "quantidade": 1
+  },
+  {
+    "id": "012",
+    "name": "Camisa Pollo",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX92930E9P8EbAP38ECansdDAjz9y3uQSBZKdPra6XT3PaveY0",
+    "valor": "20,00",
+    "quantidade": 1
+  }
+]
